@@ -285,8 +285,8 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Online Examination System</h1> 
-  <p>ExamSys</p> 
+  <h1>ExamSys</h1> 
+  <p>Online Examination System</p> 
 </div>
 
 
@@ -515,7 +515,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 
 
 <!-- Container (About Section) -->
- <div id="about" class="container-fluid">
+ <!-- <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
       <h2>About Page</h2><br>
@@ -527,11 +527,11 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
       <span class=""></span>
     </div>
   </div>
-</div> 
+</div>  -->
 
 
 <!-- Container (Contact Section) -->
- <div id="contact" class="container-fluid bg-grey">
+ <!-- <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -540,17 +540,17 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
       <p><span class="glyphicon glyphicon-phone"></span> +91 2244224422 </p>
       <p><span class="glyphicon glyphicon-envelope"></span> Project123@gmail.com</p>
     </div>
-    <div class="col-sm-7 slideanim"> 
+    <div class="col-sm-7 slideanim">  -->
 
 
 
 
-<footer class="container-fluid text-center">
+<!-- <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Thank you for visiting.</p>
-</footer>
+</footer> -->
 
 <script>
 $(document).ready(function(){
