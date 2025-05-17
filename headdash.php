@@ -75,12 +75,12 @@ echo '<span class="pull-right top title1" ><span class="log1"><span class="glyph
         <li <?php if(@$_GET['q']==0) echo'class="active"'; ?>><a href="headdash.php?q=0">Home<span class="sr-only">(current)</span></a></li>
         <li <?php if(@$_GET['q']==1) echo'class="active"'; ?>><a href="headdash.php?q=1">User</a></li>
 		<li <?php if(@$_GET['q']==2) echo'class="active"'; ?>><a href="headdash.php?q=2">Ranking</a></li>
-		<li <?php if(@$_GET['q']==3) echo'class="active"'; ?>><a href="headdash.php?q=3">Feedback</a></li>
+		<!-- <li <?php if(@$_GET['q']==3) echo'class="active"'; ?>><a href="headdash.php?q=3">Feedback</a></li> -->
         <li class="dropdown <?php if(@$_GET['q']==4 || @$_GET['q']==5) echo'active'; ?>">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Appoint<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="headdash.php?q=4">Add Admin</a></li>
-            <li><a href="headdash.php?q=5">Remove Admin</a></li>
+            <li><a href="headdash.php?q=4">Add Teacher</a></li>
+            <li><a href="headdash.php?q=5">Remove Teacher</a></li>
           </ul>
         </li>
       </ul> 
@@ -227,7 +227,7 @@ echo '<div class="panel"<a title="Back to Archive" href="update.php?q1=2"><b><sp
 if(@$_GET['q']==4) {
 echo ' 
 <div class="row">
-<span class="title1" style="margin-left:40%;font-size:30px;"><b>Enter Admin Details</b></span><br /><br />
+<span class="title1" style="margin-left:40%;font-size:30px;"><b>Enter Teacher Details</b></span><br /><br />
  <div class="col-md-3"></div><div class="col-md-6">   <form class="form-horizontal title1" name="form" action="signadmin.php?q=headdash.php?q=4"  method="POST">
 <fieldset>
 
@@ -236,7 +236,7 @@ echo '
 <div class="form-group">
   <label class="col-md-12 control-label" for="name"></label>  
   <div class="col-md-12">
-  <input id="email" name="email" placeholder="Enter Admin Email" class="form-control input-md" type="email">
+  <input id="email" name="email" placeholder="Enter  Email" class="form-control input-md" type="email">
     
   </div>
 </div>
